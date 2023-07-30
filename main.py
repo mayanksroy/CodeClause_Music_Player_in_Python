@@ -63,9 +63,9 @@ def pause_song():
         pauseButton["text"] = "Pause"
 
 listBox = tk.Listbox(canvas, fg = "cyan", bg= "blue", width= 100, font = ('Times New Roman', 15))
-listBox.pack(padx = 30, pady= 15)
+listBox.pack(padx = 30, pady= 30)
 
-label = tk.Label(canvas, text = ' ', bg = 'dark blue', fg = 'yellow', font = ('Times New Roman', 18))
+label = tk.Label(canvas, text = ' ', bg = 'aqua', fg = 'dark blue', font = ('Times New Roman', 20))
 label.pack(pady = 15)
 
 top = tk.Frame(canvas, bg = "aqua")
